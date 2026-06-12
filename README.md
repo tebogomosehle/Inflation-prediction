@@ -49,7 +49,8 @@ Macro variables may improve interpretability but not always accuracy
 Incorporate SARIMAX with lagged macroeconomic variables
 Test machine learning models (Random Forest, XGBoost)
 Apply walk-forward validation for more robust evaluation
-  👤 Author
+
+# 👤 Author
 Tebogo Mosehle
 📫 [tebogomosehle10@gmail.com]
 Linkedin: www.linkedin.com/in/tebogo-mosehle-1806b319b
