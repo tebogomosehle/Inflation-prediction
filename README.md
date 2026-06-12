@@ -8,19 +8,27 @@ This project develops and compares multiple time series forecasting models to pr
 ## 📥 Dataset
 The dataset was constructed and compiled from macroeconomic indicators which include CPI, USDZAR exchange rates, Prime rates and Money Supply(M3). 
 ## Data Sources
-CPI- South African Reserve Bank(SARB) website
+South African Reserve Bank(SARB) website
+
 M3- SARB website
+
 Prime rates- SARB website
+
 USDZAR exchange rates- Investing.com
 
-# 🛠️ Tools & Libraries
+# 🛠️ Tools & Libraries used
 Python
+
 Pandas
+
 NumPy
+
 Scikit-learn
+
 Statsmodels
-pmdarima (AutoARIMA)
+
 Matplotlib
+
 Seaborn
 # 📊 Approach
 Performed data cleaning and time series preprocessing
