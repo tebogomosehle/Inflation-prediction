@@ -32,30 +32,48 @@ Matplotlib
 Seaborn
 # 📊 Approach
 Performed data cleaning and time series preprocessing
+
 Split data into training and testing sets (time-based split)
+
 Built baseline Naive (Persistence) model
+
 Built AutoARIMA model (univariate)
+
 Built AutoARIMAX model with exogenous variables
+
 Evaluated models using:
+
 Mean Absolute Error (MAE)
+
 Root Mean Squared Error (RMSE)
+
 Mean Absolute Percentage Error (MAPE)
+
 Conducted residual diagnostics to test model adequacy
+
 Compared forecasting performance against naive benchmark
 
 # ⚠️ Key Findings
 The naive persistence model outperformed AutoARIMA in raw error metrics
+
 AutoARIMAX improved performance slightly over AutoARIMA
+
 Predictor variables were statistically significant but did not strongly improve forecasting accuracy
+
 Inflation exhibits strong short-term persistence
+
 # 💡 Key Insights
 Statistical significance ≠ predictive power
+
 Simple persistence models can be highly competitive in inflation forecasting
+
 Macro variables may improve interpretability but not always accuracy
 
 # 🚀 Future Improvements
 Incorporate SARIMAX with lagged macroeconomic variables
+
 Test machine learning models (Random Forest, XGBoost)
+
 Apply walk-forward validation for more robust evaluation
 
 # 👤 Author
